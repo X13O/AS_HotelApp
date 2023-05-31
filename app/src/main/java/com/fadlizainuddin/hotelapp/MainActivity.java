@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
 
         _imageView = findViewById(R.id.imageView1);
 
+//        Picasso berguna untuk agar gambar bisa di load melalui link tanpa harus mendownload gambar tersebut
+//        Pada hotel app ini mengimplementasikan 3 materi yaitu ScrollView, Picasso, dan FrameLayout
         String imageUrl = "https://th.bing.com/th/id/R.dea882626f5a5224480590b5eeca078e?rik=GGVEwoxI%2bLU3nQ&pid=ImgRaw&r=0";
         Picasso.with(this).load(imageUrl).into(_imageView);
 
